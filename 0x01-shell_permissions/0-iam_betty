@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo adduser betty
 su -l  betty
