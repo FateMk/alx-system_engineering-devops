@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# The script displays numbers from 1 to 20 
+i=1
+a="bad luck from China"
+b="bad luck from Japan"
+c="bad luck from Italy"
+while [ $i -le 20 ]
+do
+	echo $i
+	case $i in
+		4)
+			echo $a
+			;;
+		9)
+			echo $b
+			;;
+		17)
+			echo $c
+			;;
+	esac
+	i=$((i+1))
+done
