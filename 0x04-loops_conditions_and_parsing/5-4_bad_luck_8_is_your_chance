@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# The script loops from 1 to 10 display "bad luck" for the 4th loop "good luck" for the 8th and "Best School" for the other iterations
+# The script loops from 1 to 10 display "bad luck" for the 4th loop "good luck" 
+# for the 8th and "Best School" for the other iterations
 i=1
 name="Best School"
 a="good luck"
