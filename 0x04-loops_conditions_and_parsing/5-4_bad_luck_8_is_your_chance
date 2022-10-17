@@ -6,11 +6,9 @@ name="Best School"
 a="good luck"
 b="bad luck"
 while [ $i -le 10 ]; do
-	if [[ $i -eq 4 ]];
-	then
+	if [[ $i -eq 4 ]]; then
 		echo $b
-	elif [[ $i -eq 8 ]];
-       	then
+	elif [[ $i -eq 8 ]]; then
 		echo $a
 	else
 		echo $name
