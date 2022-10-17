@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 # The script loops from 1 to 10 display "bad luck" for the 4th loop "good luck" 
 # for the 8th and "Best School" for the other iterations
-i=1
-name="Best School"
-a="good luck"
-b="bad luck"
-while [ $i -le 10 ]; do
-	if [[ $i -eq 4 ]]; then
-		echo $b
-	elif [[ $i -eq 8 ]]; then
-		echo $a
+i=0
+while [ $i -lt 10 ]; do
+	if (( i == 4 )); then
+		echo "bad luck"
+	elif (( i == 8 )); then
+		echo "good luck"
 	else
-		echo $name
+		echo "Best School"
 	fi
-	i=$((i+1))
+	(( i++ ))
 done
