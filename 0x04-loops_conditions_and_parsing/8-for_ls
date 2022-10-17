@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# The script displays content of the current directory
-for i in $(ls); do
-	echo $i
+# this displays directory contents in a list like `$ ls`
+for i in $(find ./* | cut -d'-' -f2 | tr -d './'); do
+	echo "$i"
 done
