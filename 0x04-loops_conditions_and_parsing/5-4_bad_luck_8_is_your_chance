@@ -4,8 +4,7 @@ i=1
 name="Best School"
 a="good luck"
 b="bad luck"
-while [ $i -le 10 ]
-do
+while [ $i -le 10 ]; do
 	if [[ $i -eq 4 ]];
 	then
 		echo $b
@@ -17,4 +16,3 @@ do
 	fi
 	i=$((i+1))
 done
-
