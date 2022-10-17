@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
-# The script displays numbers from 1 to 20 
+# This script is displaying bad luck numbers
 i=1
-a="bad luck from China"
-b="bad luck from Japan"
-c="bad luck from Italy"
 while [ $i -le 20 ]; do
-	echo $i
+	echo "$i"
 	case $i in
-		4)echo $a;;
-		9)echo $b;;
-		17)echo $c;;
+		4) echo "bad luck from China";;
+		9) echo "bad luck from Japan";;
+		17) echo "bad luck from Italy";;
 	esac
-	i=$((i+1))
+	(( i++ ))
 done
