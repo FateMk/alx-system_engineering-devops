@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # The script displays "Best School" 10 times but for the 9th iteration displays "Best School" and the "Hi"
 i=1
-name="Best School"
-while [ $i -le 10 ]
-do
-	echo $name
+while [ $i -le 10 ]; do
+	echo "Best School"
 	if [[ $i -eq 9 ]]
 	then
 		echo "Hi"
