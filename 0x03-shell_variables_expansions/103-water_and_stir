@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $((5#echo $WATER| tr 'water' '234'+5#`echo $STIR| tr 'stir' '67')) | tr '23' 'bestchol'
+WATER="100"; STIR="50" | echo $(($WATER + $STIR)) 
