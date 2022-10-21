@@ -1,6 +1,6 @@
 Description
 
-The focus of these projects have been learning Bash and other sysadmin/ devops technologies.
+The focus of these projects has been learning Bash and other sysadmin/ devops technologies.
 
 Environment
 
