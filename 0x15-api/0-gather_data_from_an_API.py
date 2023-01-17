@@ -20,10 +20,8 @@ if __name__ == "__main__":
         if (task.get("userId") == int(ID)):
             total_tasks += 1
             if (task.get("completed")):
-                done_tasks.append(task.get("title"))
-    
+                done_tasks.append(task.get("title"))           
     print("Employee {} is done with tasks({:d}/{:d}):"
           .format(response, len(done_tasks), total_tasks))
-
     for item in done_tasks:
         print("\t {}".format(item))
